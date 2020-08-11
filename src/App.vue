@@ -1,8 +1,19 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+    <div id="app">
+        <router-view />
+        <main-tab-bar />
+    </div>
 </template>
 
-<style lang="scss">
+<script>
+import MainTabBar from "./components/content/maintabbar/MainTabBar";
+export default {
+    components: {
+        MainTabBar
+    }
+};
+</script>
+
+<style lang="sass">
+@import "/src/assets/css/base.css"
 </style>
