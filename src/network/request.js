@@ -9,7 +9,6 @@ export function request(config) {
     // 请求拦截器
     instance.interceptors.request.use(
         config => {
-            console.log(config);
             return config
         },
         err => {

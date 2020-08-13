@@ -1,10 +1,10 @@
 <template>
-    <div>
-        <h2>{{ message }}</h2>
-    </div>
+    <div></div>
 </template>
 
 <script>
+import Bscroll from "better-scroll";
+
 export default {
     data() {
         return {
