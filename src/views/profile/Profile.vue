@@ -1,17 +1,15 @@
 <template>
-    <div>
-        <h2>{{ message }}</h2>
-    </div>
+  <div></div>
 </template>
 
 <script>
+import BScroll from 'better-scroll'
 export default {
-    data() {
-        return {
-            message: "我的"
-        };
-    }
-};
+  data() {
+    return {}
+  },
+}
 </script>
 
-<style></style>
+<style scoped>
+</style>
